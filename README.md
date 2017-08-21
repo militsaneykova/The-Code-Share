@@ -22,4 +22,6 @@ Code Share is a platform that provides Groups an ability to code together withou
     *  PJS PROBLEMS - will provide JS coding challenges
     *  CODEMIRROR  - will provide the code editor window
   *  3rd Party API - will provide the data for upcoming coding events
-  *  SQL DataBase structure - will provide the ability to save coding events created by users. Will also serve as a REST API where we can fetch the created events and display it on the EVENTS LIST
+  *  POSTGRES & EXPRESS - will provide the ability to save coding events created by users. Will also serve as a REST API where we can fetch the created events and display it on the EVENTS LIST
+  * REDUX - maybe used to contain and control the STATE DATA for all of the components
+  
