@@ -7,8 +7,19 @@ Code Share is a platform that provides Groups an ability to code together withou
   *  USER should be able to create a USER NAME ( NO AUTHS )
   *  USER should be able to view the coding challenges & the events on the main page
   *  USER should be able to select a challenge followed by a render of code editor for that challenge in a specific ROOM
+  *  USER should be able to SAVE the code by an option of DOWNLOAD
   *  USER should be abe to view who is in the ROOM and who is typing should show
   *  USER should be able to CREATE or SEARCH coding events based on the language they provided
   *  USER should be able to show that they are interested in attending that event and others should be able to view their interest
   
 ### BONUS FEATURES
+  *  AUTHS - option to REGISTER and LOGIN
+  *  CHAT window in the ROOMS
+  
+### Planned Technologies
+  *  SOCKET.IO - will provide the ability fir real time updates in the code editor
+  *  NPM PACKAGES:
+    *  PJS PROBLEMS - will provide JS coding challenges
+    *  CODEMIRROR  - will provide the code editor window
+  *  3rd Party API - will provide the data for upcoming coding events
+  *  SQL DataBase structure - will provide the ability to save coding events created by users. Will also serve as a REST API where we can fetch the created events and display it on the EVENTS LIST
